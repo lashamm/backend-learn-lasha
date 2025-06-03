@@ -47,26 +47,116 @@
 //int x2 = c;
 //x2 = Convert.ToInt32(n);
 
-Console.WriteLine("enter num");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num > 0)
+//Console.WriteLine("enter num");
+//int num = Convert.ToInt32(Console.ReadLine());
+//if (num > 0)
+//{
+//    Console.WriteLine("num is positive");
+//}
+//else if (num == 0)
+//{
+//    Console.WriteLine("num is 0");
+//}
+//else
+//{
+//    Console.WriteLine("num is negative");
+//}
+
+//Console.WriteLine("enter num");
+//int num = Convert.ToInt32(Console.ReadLine());
+
+//if (num % 2 == 0)
+//{
+//    Console.WriteLine("luwi");
+//}
+//else
+//{
+//    Console.WriteLine("kenti");
+//}
+
+//int age;
+//Console.WriteLine("enter age");
+//age = Convert.ToInt32(Console.ReadLine());
+
+//if (age < 18)
+//{
+//    Console.WriteLine("you are under 18");
+//}
+//else if (age >= 18 && age < 60)
+//{
+//    Console.WriteLine("you are between 18 and 60");
+//}
+//else if (age >= 60)
+//{
+//    Console.WriteLine("you are over 60");
+//}
+//else {
+//    Console.WriteLine("invalid age");
+//}
+
+//int weekDay;
+//string result;
+//Console.WriteLine("enter any day from a moth");
+//weekDay = Convert.ToInt32(Console.ReadLine());
+//switch (weekDay % 7)
+//{
+//	case 1: result = "monday"; break;
+//        case 2: result = "tuesday"; break;
+//        case 3: result = "wednesday"; break;
+//        case 4: result = "thursday"; break;
+//        case 5: result = "friday"; break;
+//        case 6: result = "saturday"; break;
+//        case 7: result = "sunday"; break;
+//    default:
+//        result = "invalid day";
+//        break;
+//}
+//Console.WriteLine($"day {weekDay} is {result}");
+
+
+Console.WriteLine("enter your grade");
+int grade = Convert.ToInt32(Console.ReadLine());
+
+if (grade > 91 || grade <= 100)
 {
-    Console.WriteLine("num is positive");
+    Console.WriteLine("your grade is A+");
 }
-else if (num == 0)
+else if (grade > 81 && grade <= 90)
 {
-    Console.WriteLine("num is 0");
+    Console.WriteLine("your grade is A");
+}
+else if (grade > 71 && grade <= 80)
+{
+    Console.WriteLine("your grade is B+");
+}
+else if (grade > 61 && grade <= 70)
+{
+    Console.WriteLine("your grade is B");
+}
+else if (grade > 51 && grade <= 60)
+{
+    Console.WriteLine("your grade is C+");
+}
+else if (grade > 41 && grade <= 50)
+{
+    Console.WriteLine("your grade is C");
+}
+else if (grade > 31 && grade <= 40)
+{
+    Console.WriteLine("your grade is D+");
+}
+else if (grade > 21 && grade <= 30)
+{
+    Console.WriteLine("your grade is D");
+}
+else if (grade >= 0 && grade <= 20)
+{
+    Console.WriteLine("your grade is F");
 }
 else
 {
-    Console.WriteLine("num is negative");
+    Console.WriteLine("invalid grade");
 }
-
-
-
-
-
-
 
 //                     პირველი გაკვეთილი
 
