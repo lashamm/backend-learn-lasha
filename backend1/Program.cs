@@ -1,4 +1,110 @@
-﻿//                     მეორე გაკვეთილი
+﻿//                        მესამე გაკვეთილი
+
+
+
+
+int n = 5;
+for (int i = 1; i < n; i++)
+{
+    Console.WriteLine($"{i*i*i}");
+}
+
+//int n = 10;
+//int sum = 0;
+//double avarage;
+//Console.WriteLine("enter numbers");
+//for (int i = 0; i < n + 1; i++)
+//{
+//    Console.WriteLine($"enter number{i}: ");
+//    int x = Convert.ToInt32(Console.ReadLine());
+//    sum += x;
+//}
+//avarage = (double)sum / n;
+//Console.WriteLine($"sum is {sum} and avarage is avarage is {avarage}");
+
+
+//int finalNum = 0;
+//for(int firstNum = 10; firstNum > finalNum; firstNum--)
+//{
+//    Console.WriteLine(firstNum);
+//}   
+
+//int tryCount = 20;
+//for (int i = 1; i < tryCount + 1; i++){
+//    if (i % 2 == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+//for ( int i = 0; i < 3; i++)
+//{
+//    Console.WriteLine("enter letter");
+//    char symbol = Convert.ToChar(Console.ReadLine());
+
+//    if (char.IsLetter(symbol))
+//    {
+//        if ("aeiou".Contains(char.ToLower(symbol)))
+//        {
+//            Console.WriteLine("vowel");
+//        }
+//        else
+//        {
+//            Console.WriteLine("consonant");
+//        }
+//        break;
+//    }
+//    else
+//    {
+//        Console.WriteLine("not a letter");
+//    }
+
+//}
+
+
+//while (true)
+//{
+//    Console.WriteLine("enter letter");
+//    char symbol = Convert.ToChar(Console.ReadLine());
+
+//    if (char.IsLetter(symbol))
+//    {
+//        if ("aeiou".Contains(char.ToLower(symbol)))
+//        {
+//            Console.WriteLine("vowel");
+//        }
+//        else
+//        {
+//            Console.WriteLine("consonant");
+//        }
+//        break;
+//    }
+//    else
+//    {
+//        Console.WriteLine("not a letter");
+//    }
+
+//}
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                     მეორე გაკვეთილი
 
 
 //Console.WriteLine("enter first num");
@@ -114,49 +220,49 @@
 //Console.WriteLine($"day {weekDay} is {result}");
 
 
-Console.WriteLine("enter your grade");
-int grade = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("enter your grade");
+//int grade = Convert.ToInt32(Console.ReadLine());
 
-if (grade > 91 || grade <= 100)
-{
-    Console.WriteLine("your grade is A+");
-}
-else if (grade > 81 && grade <= 90)
-{
-    Console.WriteLine("your grade is A");
-}
-else if (grade > 71 && grade <= 80)
-{
-    Console.WriteLine("your grade is B+");
-}
-else if (grade > 61 && grade <= 70)
-{
-    Console.WriteLine("your grade is B");
-}
-else if (grade > 51 && grade <= 60)
-{
-    Console.WriteLine("your grade is C+");
-}
-else if (grade > 41 && grade <= 50)
-{
-    Console.WriteLine("your grade is C");
-}
-else if (grade > 31 && grade <= 40)
-{
-    Console.WriteLine("your grade is D+");
-}
-else if (grade > 21 && grade <= 30)
-{
-    Console.WriteLine("your grade is D");
-}
-else if (grade >= 0 && grade <= 20)
-{
-    Console.WriteLine("your grade is F");
-}
-else
-{
-    Console.WriteLine("invalid grade");
-}
+//if (grade > 91 || grade <= 100)
+//{
+//    Console.WriteLine("your grade is A+");
+//}
+//else if (grade > 81 && grade <= 90)
+//{
+//    Console.WriteLine("your grade is A");
+//}
+//else if (grade > 71 && grade <= 80)
+//{
+//    Console.WriteLine("your grade is B+");
+//}
+//else if (grade > 61 && grade <= 70)
+//{
+//    Console.WriteLine("your grade is B");
+//}
+//else if (grade > 51 && grade <= 60)
+//{
+//    Console.WriteLine("your grade is C+");
+//}
+//else if (grade > 41 && grade <= 50)
+//{
+//    Console.WriteLine("your grade is C");
+//}
+//else if (grade > 31 && grade <= 40)
+//{
+//    Console.WriteLine("your grade is D+");
+//}
+//else if (grade > 21 && grade <= 30)
+//{
+//    Console.WriteLine("your grade is D");
+//}
+//else if (grade >= 0 && grade <= 20)
+//{
+//    Console.WriteLine("your grade is F");
+//}
+//else
+//{
+//    Console.WriteLine("invalid grade");
+//}
 
 //                     პირველი გაკვეთილი
 
