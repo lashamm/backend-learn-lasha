@@ -6,7 +6,8 @@
 int n = 5;
 for (int i = 1; i < n; i++)
 {
-    Console.WriteLine($"{i*i*i}");
+    int cube = (int)Math.Pow(i, 3);
+    Console.WriteLine($"{cube}");
 }
 
 //int n = 10;
