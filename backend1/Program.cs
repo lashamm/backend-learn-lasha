@@ -3,12 +3,32 @@
 
 
 
+
 int n = 5;
-for (int i = 1; i < n; i++)
+for (int i = 0; i < n; i++)
 {
-    int cube = (int)Math.Pow(i, 3);
-    Console.WriteLine($"{cube}");
+    Console.Write(new string(' ', n - i));
+	for (int j = 0; j < i + 1; j++)
+	{
+        Console.Write($"{j + 1}");
+	}
+    Console.WriteLine();
 }
+
+//int n = 5;
+
+//do
+//{
+//    Console.WriteLine("enter positive number: ");
+//    n = Convert.ToInt32(Console.ReadLine());
+//} while (n <= 0);
+
+//int n = 5;
+//for (int i = 1; i < n; i++)
+//{
+//    int cube = (int)Math.Pow(i, 3);
+//    Console.WriteLine($"{cube}");
+//}
 
 //int n = 10;
 //int sum = 0;
@@ -264,6 +284,14 @@ for (int i = 1; i < n; i++)
 //{
 //    Console.WriteLine("invalid grade");
 //}
+
+
+
+
+
+
+
+
 
 //                     პირველი გაკვეთილი
 
