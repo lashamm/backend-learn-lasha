@@ -1,19 +1,111 @@
-﻿//                        მესამე გაკვეთილი
+﻿//                           მეოთხე გაკვეთილი
+
+// მასივი
+
+//int[] number = new int[20]; // მასივი 5 ელემენტიანი
+//number[0] = 13; // მასივის პირველი ელემენტი
+//number[1] = 14; // მასივის მეორე ელემენტი
+//number[19] = 15;
+//Console.WriteLine(number[0]);
+//Console.WriteLine(number[1]);
+//Console.WriteLine(number[19]);
+
+//string[] names = new string[5];
+//names[0] = "lasha";
+//names[1] = "giorgi";
+//names[2] = "nini";
+//names[3] = "nata";
+//names[4] = "cotne";
+
+//for (int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine(names[i]);
+//}
+
+//string[] names = new string[5];
+
+//for (int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine("Enter name");
+//    names[i] = Console.ReadLine() ?? string.Empty;
+//}
+//Console.Clear();
+//for (int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine(names[i]);
+//}
+
+//int[,] array = new int[3, 4];
+//Random random = new Random();
+//for (int i = 0; i < array.GetLength(0); i++)
+//{
+
+//    for (int j = 0; j < array.GetLength(1); j++)
+//    {
+//        array[i, j] = random.Next(1, 101);
+//    }
+//}
+
+//for (int i = 0; i < array.GetLength(0); i++)
+//{
+//    for (int j = 0; j < array.GetLength(1); j++)
+//    {
+//        Console.Write(array[i, j] + "\t");
+//    }
+//    Console.WriteLine();
+//}
 
 
+//char[] grades = new char[6];
 
+//foreach (char c in grades)
+//{
+//}
 
+//int x = 5;
+//int y = x;
+//x++;
+//Console.WriteLine(x);
+//Console.WriteLine(y);
 
-int n = 5;
-for (int i = 0; i < n; i++)
+//int[] arr1 = new int[5] { 1, 2, 3, 4, 5 };
+//int[] arr2 = arr1;
+//arr1[1] = 3;
+//Console.WriteLine(arr2[1]);
+
+int[] arr1 = new int[5] { 1, 2, 3, 4, 5 };
+int[] arr2 = new int[arr1.Length]; 
+arr2 = arr1;
+
+for (int i = 0; i < arr1.Length; i++)
 {
-    Console.Write(new string(' ', n - i));
-	for (int j = 0; j < i + 1; j++)
-	{
-        Console.Write($"{j + 1}");
-	}
-    Console.WriteLine();
+    arr2[i] = arr1[i];
 }
+
+arr1[2] = 10;
+Console.WriteLine(arr2[2]);
+
+
+
+
+
+
+
+
+
+//                        მესამე გაკვეთილი
+
+
+//int n = 5;
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write(new string(' ', n - i));
+//	for (int j = 0; j < i + 1; j++)
+//	{
+//        Console.Write($"{j + 1}");
+//	}
+//    Console.WriteLine();
+//}
 
 //int n = 5;
 
