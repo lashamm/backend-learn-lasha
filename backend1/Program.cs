@@ -1,4 +1,52 @@
-﻿//                           მეოთხე გაკვეთილი
+﻿//                         მეხუთე გაკვთილი
+
+
+string text = "this method allows fpr robust etc...";
+var words = text.Split(' ');
+foreach (var word in words)
+{
+    Console.WriteLine(word);
+}
+
+
+//using System.Text;
+//string text = "Hello, World!";
+//string subString = text.Substring(5, 3);
+//StringBuilder stringBuilder = new StringBuilder();
+//stringBuilder.Append(subString);
+//stringBuilder.Append(' ');
+//stringBuilder.Append("C#");
+//stringBuilder.Append("Python");
+
+//string result = stringBuilder.ToString();
+//Console.WriteLine(result);
+
+
+
+
+//string mail;
+//string mail2;
+//Console.WriteLine("Enter your Mail");
+//mail = Console.ReadLine() ?? string.Empty;
+//Console.WriteLine("Reapeat Mail");
+//mail2 = Console.ReadLine() ?? string.Empty;
+
+//if (mail.Equals(mail2, StringComparison.OrdinalIgnoreCase))
+//{
+//    Console.WriteLine("Mail is correct");
+//}
+//else
+//{
+//    Console.WriteLine("Mail is not correct");
+//}
+
+
+
+
+
+
+
+//                           მეოთხე გაკვეთილი
 
 // მასივი
 
@@ -73,17 +121,17 @@
 //arr1[1] = 3;
 //Console.WriteLine(arr2[1]);
 
-int[] arr1 = new int[5] { 1, 2, 3, 4, 5 };
-int[] arr2 = new int[arr1.Length]; 
-arr2 = arr1;
+//int[] arr1 = new int[5] { 1, 2, 3, 4, 5 };
+//int[] arr2 = new int[arr1.Length]; 
+//arr2 = arr1;
 
-for (int i = 0; i < arr1.Length; i++)
-{
-    arr2[i] = arr1[i];
-}
+//for (int i = 0; i < arr1.Length; i++)
+//{
+//    arr2[i] = arr1[i];
+//}
 
-arr1[2] = 10;
-Console.WriteLine(arr2[2]);
+//arr1[2] = 10;
+//Console.WriteLine(arr2[2]);
 
 
 
