@@ -1,12 +1,60 @@
 ﻿//                         მეხუთე გაკვთილი
 
 
-string text = "this method allows fpr robust etc...";
-var words = text.Split(' ');
+string regulation = "This is a bad text with a bad word and it looks ugly and awful";
+string[] words = { "bad", "ugly", "awful" };
+
 foreach (var word in words)
 {
-    Console.WriteLine(word);
+    regulation = regulation.Replace(word, new string('*', word.Length));
 }
+Console.WriteLine(regulation);
+
+
+//string regulation = "This is a bad text with a bad word";
+//string badWord = "bad";
+
+//regulation = regulation.Replace(badWord, new string('*', badWord.Length));
+//Console.WriteLine(regulation);
+
+
+
+
+//string text = "This is a very long text tgat nust be shortened";
+//string shortText = text.Substring(0, 20) + "...";
+
+//Console.WriteLine(shortText);
+
+
+
+
+
+//string fullName = "    LaSha        MAisuradZe     ";
+
+//string firstName;
+//string lastName;
+//string userName;
+
+//string[] names = fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+//firstName = names[0];
+//lastName = names[1];
+
+//userName = firstName[0] +"." + " " + lastName;
+
+//Console.WriteLine(userName.ToLower());
+
+
+
+
+
+
+//string text = "this method allows fpr robust etc...";
+//var words = text.Split(' ');
+//foreach (var word in words)
+//{
+//    Console.WriteLine(word);
+//}
 
 
 //using System.Text;
