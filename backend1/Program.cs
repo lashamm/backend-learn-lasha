@@ -1,32 +1,61 @@
 ﻿//                           მეექვსე გაკვეთილი
 
-using System.Diagnostics;
 
-int num;
-static int fibonachi(int n)
-{
-    //    int first = 0;
-    //    int second = 1;
-    //    int result = 0;
-    //    for (int i = 0 ; i < n; i++)
-    //    {
-    //        result = first + second;
-    //        first = second;
-    //        second = result;
-    //    }
-    //    return result;
 
-    //            ან 
 
-    if (n == 1) return 0;
-    if (n == 2) return 1;
-    return fibonachi(n - 1) + fibonachi(n - 2);
-}
 
-Console.WriteLine("Enter num");
-num = Convert.ToInt32(Console.ReadLine());
-int fib = fibonachi(num);
-Console.WriteLine(fib);
+
+
+
+
+
+
+//using System.Diagnostics.CodeAnalysis;
+//using System.Threading.Channels;
+
+//int[] numbers = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//countEvens(numbers);
+//static void countEvens(int[] numbers)
+//{
+//    int even = 0;
+//    int sum = 0;
+//    foreach (int i in numbers)
+//    {
+//        if (i % 2 == 0)
+//        {
+//            even++;
+//            sum += even;
+//        }
+//    }
+//}
+ 
+//using System.Diagnostics;
+
+//int num;
+//static int fibonachi(int n)
+//{
+//    //    int first = 0;
+//    //    int second = 1;
+//    //    int result = 0;
+//    //    for (int i = 0 ; i < n; i++)
+//    //    {
+//    //        result = first + second;
+//    //        first = second;
+//    //        second = result;
+//    //    }
+//    //    return result;
+
+//    //            ან 
+
+//    if (n == 1) return 0;
+//    if (n == 2) return 1;
+//    return fibonachi(n - 1) + fibonachi(n - 2);
+//}
+
+//Console.WriteLine("Enter num");
+//num = Convert.ToInt32(Console.ReadLine());
+//int fib = fibonachi(num);
+//Console.WriteLine(fib);
 
 
 
