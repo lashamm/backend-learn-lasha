@@ -1,14 +1,93 @@
-﻿//                         მეხუთე გაკვთილი
+﻿//                           მეექვსე გაკვეთილი
 
+using System.Diagnostics;
 
-string regulation = "This is a bad text with a bad word and it looks ugly and awful";
-string[] words = { "bad", "ugly", "awful" };
-
-foreach (var word in words)
+int num;
+static int fibonachi(int n)
 {
-    regulation = regulation.Replace(word, new string('*', word.Length));
+    //    int first = 0;
+    //    int second = 1;
+    //    int result = 0;
+    //    for (int i = 0 ; i < n; i++)
+    //    {
+    //        result = first + second;
+    //        first = second;
+    //        second = result;
+    //    }
+    //    return result;
+
+    //            ან 
+
+    if (n == 1) return 0;
+    if (n == 2) return 1;
+    return fibonachi(n - 1) + fibonachi(n - 2);
 }
-Console.WriteLine(regulation);
+
+Console.WriteLine("Enter num");
+num = Convert.ToInt32(Console.ReadLine());
+int fib = fibonachi(num);
+Console.WriteLine(fib);
+
+
+
+
+
+//string str = "Welcome to step academy";
+//int count = CountSpaces(str);
+//Console.WriteLine(count);
+//static int CountSpaces(string text) 
+//{
+//int result = 0;
+//foreach(char item  in text)
+//{
+//    if(item == ' ')
+//    {
+//        result++;
+//    }
+//}
+//return result;
+
+//   ან
+
+//return text.Split(' ').Length - 1;
+//}
+
+
+//using System.Threading.Channels;
+
+//static double Summary(double x, double y)
+//{
+//    return x+y;
+//}
+
+//int num;
+//int num2;
+//Console.WriteLine("Enter num 1");
+//num = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Enter num 2");
+//num2 = Convert.ToInt32(Console.ReadLine());
+//Console.Clear();
+
+//Console.WriteLine(Summary(num,num2));
+
+
+
+
+
+
+
+
+//                         მეხუთე გაკვთილი
+
+
+//string regulation = "This is a bad text with a bad word and it looks ugly and awful";
+//string[] words = { "bad", "ugly", "awful" };
+
+//foreach (var word in words)
+//{
+//    regulation = regulation.Replace(word, new string('*', word.Length));
+//}
+//Console.WriteLine(regulation);
 
 
 //string regulation = "This is a bad text with a bad word";
