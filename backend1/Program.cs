@@ -7,6 +7,17 @@
 
 
 
+//int a = 13;
+//int b = 32;
+//swap(ref a, ref b);
+//Console.WriteLine($"a = {a}, b = {b}");
+
+//static void swap(ref int x, ref int y)
+//{
+//    (x, y) = (y, x);
+//}
+
+
 
 
 
