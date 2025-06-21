@@ -1,9 +1,70 @@
-﻿//                           მეექვსე გაკვეთილი
+﻿//                   მეშვიდე გაკვეთილი
+
+
+using Microsoft.VisualBasic;
+
+Users user = new Users();
+
+user.Name = "Lasha";
+user.Name = "Giorgi";
+Console.WriteLine(user.Name);
+
+Console.WriteLine(user.Name);
+user.BirthDate = new DateTime(2002, 04, 12);
+Console.WriteLine(user.BirthDate);
+//Users user1 = new Users("name", "lastName");
+//Users user2 = new Users("", "", "", DateTime.now);
+class Users
+{
+    public string Name { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; private set; }
+    public int Age { get; set; }
+    public DateTime BirthDate { get; set; }
+
+    public Users() { }
+    public Users(
+        string name, 
+        string lastName, 
+        string email, 
+        int age, DateTime 
+        birthDate
+        )
+    {
+        Name = name;
+        LastName = lastName;
+        Email = email;
+        Age = age;
+        BirthDate = birthDate;
+    }
+    public void Print()
+    {
+        Console.WriteLine($"Name: {Name}");
+    }
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                           მეექვსე გაკვეთილი
 
 
 
@@ -39,7 +100,7 @@
 //        }
 //    }
 //}
- 
+
 //using System.Diagnostics;
 
 //int num;
