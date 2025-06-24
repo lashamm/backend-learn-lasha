@@ -1,14 +1,14 @@
 ﻿//                        მერვე გაკვეთილი
-using backend1.Mocdels;
-using backend1.Enums;
+//using backend1.Mocdels;
+//using backend1.Enums;
 
-//Car car = new Car(CarBrand.Subaru, "Impreza WRX STI", new DateTime(2004,06,16), 9500, "Blue", "Japan");
+////Car car = new Car(CarBrand.Subaru, "Impreza WRX STI", new DateTime(2004,06,16), 9500, "Blue", "Japan");
 
-//car.Print();
+////car.Print();
 
-Book book = new Book("Title", "Author", "000", Genre.Historical, new DateTime(1988,11,24 ), 13);
+//Book book = new Book("Title", "Author", "000", Genre.Historical, new DateTime(1988,11,24 ), 13);
 
-book.PrintBook();
+//book.PrintBook();
 
 
 
