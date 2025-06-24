@@ -1,4 +1,4 @@
-﻿namespace backend1
+﻿namespace backend1.Mocdels
 {
     internal class Users
     {

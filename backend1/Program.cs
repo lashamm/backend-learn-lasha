@@ -1,27 +1,40 @@
-﻿//                   მეშვიდე გაკვეთილი
+﻿//                        მერვე გაკვეთილი
+using backend1.Mocdels;
+using backend1.Enums;
+
+Car car = new Car(CarBrand.Subaru, "Impreza WRX STI", new DateTime(2004,06,16), 9500, "Blue", "Japan");
 
 
-using backend1;
+car.Print();
 
-Users user = new Users();
 
-user.Name = "Lasha";
-user.Name = "Giorgi";
 
-Users user1 = new Users(
-    "name",
-    "lastName",
-    "email",
-    DateTime.Now
-    );
-Users user2 = new Users(
-    "Lasha",
-    "Maisuradze",
-    "test@gmail.com",
-    new DateTime(2008, 11, 19)
-    );
-;
-user2.Print();
+
+
+////                   მეშვიდე გაკვეთილი
+
+
+//using backend1;
+
+//Users user = new Users();
+
+//user.Name = "Lasha";
+//user.Name = "Giorgi";
+
+//Users user1 = new Users(
+//    "name",
+//    "lastName",
+//    "email",
+//    DateTime.Now
+//    );
+//Users user2 = new Users(
+//    "Lasha",
+//    "Maisuradze",
+//    "test@gmail.com",
+//    new DateTime(2008, 11, 19)
+//    );
+//;
+//user2.Print();
 
 
 
