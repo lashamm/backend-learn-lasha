@@ -1,11 +1,12 @@
 ﻿//                       მეცხრე გაკვეთილი
 
 using backend1.Mocdels;
+using backend1.Enums;
 
 Person person = new Person(1, "Lasha", new DateTime(2008, 11, 19), "Maisuradze");
 person.CalculateAge();
 
-Teacher teacher = new Teacher("Giorgi", "Math", 4, "surname", new DateTime(1994, 02, 20), 5);
+Teacher teacher = new Teacher("Giorgi", subject.Math , 4, "surname", new DateTime(1994, 02, 20), 5);
 teacher.Teach();
 
 Student student = new Student(3,"Cotne", new DateTime(2004, 07, 29), "surname", "10th grade");
