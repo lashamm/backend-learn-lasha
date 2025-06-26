@@ -2,19 +2,19 @@
 
 namespace backend1.Mocdels
 {
-    internal class Student
+    internal class Student : Person
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
         public string Grade { get; set; }
 
         public Student() { }
-        public Student(int id, string name, int age, string grade)
+        public Student(
+            int id, 
+            string name, 
+            DateTime age, 
+            string surname,
+            string grade) : base(id, name, age, surname)
         {
-            Id = id;
-            Name = name;
-            Age = age;
+           
             Grade = grade;
         }
 

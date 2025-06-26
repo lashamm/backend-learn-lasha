@@ -5,7 +5,7 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime Age { get; set; }
-        public string surname { get; set; }
+        public string Surname { get; set; }
 
         public Person() { }
 
@@ -19,7 +19,7 @@
             Id = id;
             Name = name;
             Age = age;
-            this.surname = surname;
+            Surname = surname;
         }
 
         public void CalculateAge() { 

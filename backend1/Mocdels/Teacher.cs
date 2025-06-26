@@ -6,24 +6,22 @@ using System.Threading.Tasks;
 
 namespace backend1.Mocdels
 {
-    internal class Teacher
+    internal class Teacher : Person
     {
-        public string Name { get; set; }
         public string Subject { get; set; }
-        public DateTime age { get; set; }
         public int Experience { get; set; }
 
         public Teacher() { }
 
         public Teacher(
             string name, 
-            string subject, 
+            string subject,
+            int id,
+            string surname,
             DateTime age, 
-            int experience)
+            int experience) : base(id, name, age, surname)
         {
-            Name = name;
             Subject = subject;
-            this.age = age;
             Experience = experience;
         }
 
