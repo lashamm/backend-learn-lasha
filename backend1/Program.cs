@@ -1,4 +1,29 @@
-﻿//                        მერვე გაკვეთილი
+﻿//                       მეცხრე გაკვეთილი
+
+using backend1.Mocdels;
+
+Person person = new Person(1, "Lasha", new DateTime(2008, 11, 19), "Maisuradze");
+person.CalculateAge();
+
+Teacher teacher = new Teacher("Giorgi", "Math", new DateTime(1990, 5, 20), 10);
+teacher.Teach();
+
+Student student = new Student(1, "Cotne", 15, "10th Grade");
+student.study();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                        მერვე გაკვეთილი
 //using backend1.Mocdels;
 //using backend1.Enums;
 
